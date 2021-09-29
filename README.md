@@ -5,10 +5,10 @@ Trabajo en grupo para clases en el que realizaremos una "película" usando clase
 ## Miembros del grupo
 
 En este trabajo participan por su nombre de usuario de GitHub:
-. [dnuezsan](https://github.com/dnuezsan)
-. [genarosalas10](https://github.com/genarosalas10)
-. [josefdzbeta](https://github.com/josefdzbeta)
-. [mperezpizarro](https://github.com/mperezpizarro)
+- [dnuezsan](https://github.com/dnuezsan)
+- [genarosalas10](https://github.com/genarosalas10)
+- [josefdzbeta](https://github.com/josefdzbeta)
+- [mperezpizarro](https://github.com/mperezpizarro)
 
 ## Sobre el repositorio
 
