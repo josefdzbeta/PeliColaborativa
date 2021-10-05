@@ -25,8 +25,6 @@ Se recomienda hacer `git clone` para una mayor facilidad a la hora de trabajar c
 4. Tras ello, haz un `git commit` con un commit que sea entendible (`git commit -m "Comentario que diga qué cambios has hecho"`).
 5. Una vez hecho el commit, haces un `git push` y listo.
 
-Si usáis git en interfaz gráfica o por CMD merecéis que os caiga encima todo el peso de la ley (okno, pero usad terminal, que no falla nunca).
-
 ## Sobre la película
 
 El grupo promete que la escritura de este guión no fue realizada bajo los efectos de ninguna sustancia legal o ilegal que pudiese nublar su capacidad 
