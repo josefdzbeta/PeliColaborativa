@@ -3,12 +3,22 @@ export class Personajes {
         this.nombre = nombre
     }
     hablar(texto) {
-        document.write("<p>[" + this.nombre + "]: " + texto + "</p>")
+        let p = document.createElement('p')
+        p.appendChild(document.createTextNode("["+this.nombre+"]"+texto))
+        document.body.appendChild(p)
     }
     pensar(texto) {
-        document.write("<p><i>[" + this.nombre + "]: " + texto + "</i></p>")
+        let p = document.createElement('p')
+        p.classList.add('pensar')
+        p.appendChild(document.createTextNode("["+this.nombre+"]"+texto))
+        //document.write("<p><i>[" + this.nombre + "]: " + texto + "</i></p>")
+        document.body.appendChild(p)
     }
     narrar(texto) {
-        document.write("<p><b><i>" + texto + "</i></b></p>")
+        let p = document.createElement('p')
+        p.classList.add('narrar')
+        p.appendChild(document.createTextNode(texto))
+        document.body.appendChild(p)
     }
 }
+

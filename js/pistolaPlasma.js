@@ -8,14 +8,20 @@ export class PistolaPlasma extends Arma {
     disparar() {
         if(this.reserva>0){
             this.reserva--
-            document.write("<p>PUUUUUUUUUUUUUUUUUUUUUUM!!!!!</p>")
+            let p = document.createElement('p')
+            p.appendChild(document.createTextNode("¡PIUUUUUUUUUUUUUUMBA!"))
+            document.body.appendChild(p)
         }else{
-            document.write("<p>¡Pero deja que me enfríe, animal!</p>")
+            let p = document.createElement('p')
+            p.appendChild(document.createTextNode("¡Que me estoy enfriando, animal!"))
+            document.body.appendChild(p)
         }
     }
     enfriar() {
         this.reserva = 6;
-        document.write("<p>[Enfriándomeee...]</p>")
+        let p = document.createElement('p')
+        p.appendChild(document.createTextNode("Enfriándome..."))
+        document.body.appendChild(p)
     }
 
 }

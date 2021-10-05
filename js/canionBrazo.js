@@ -7,6 +7,8 @@ export class CanionBrazo extends Arma {
     }
     //Dispara el cañon generando un sonido
     disparar() {
-        document.write("<p>FIUUUUMBA!!!!!</p>");
+        let p = document.createElement('p')
+        p.appendChild(document.createTextNode("¡FIUUUUUUUUUUUUUUMBA!"))
+        document.body.appendChild(p)
     }
 }
