@@ -26,3 +26,10 @@ Se recomienda hacer `git clone` para una mayor facilidad a la hora de trabajar c
 5. Una vez hecho el commit, haces un `git push` y listo.
 
 Si usáis git en interfaz gráfica o por CMD merecéis que os caiga encima todo el peso de la ley (okno, pero usad terminal, que no falla nunca).
+
+## Sobre la película
+
+El grupo promete que la escritura de este guión no fue realizada bajo los efectos de ninguna sustancia legal o ilegal que pudiese nublar su capacidad 
+de pensamiento a la hora de redactar el escrito.
+
+Cualquier parecido con otra saga de ciencia ficción es mera coincidencia.
